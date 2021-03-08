@@ -5,6 +5,7 @@
 */
 
 alert("Este programa suma dos numeros y muestra el resultado.")
+// Si no especifico de que tipo son al pedir que el usuario las digite por prompt estas seran de tipo cadena, y a la hora de sumar en vez de sumar se concatenan
 var num1= new Number(prompt("Digite un numero.")); //Aqui declaro la variable del primer numero y especifico que es de caracter numerico
 var num2= new Number(prompt("Digite otro numero.")); 
 var resultado; //Aqui declaro la variable del resultado no especifique el tipo porque no hace falta para este caso
